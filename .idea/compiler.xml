@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="JoyBoy" />
+        <module name="joyboy.common.network.http" />
+        <module name="joyboy.common.network.rpc" />
+        <module name="joyboy.startup" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="socket-bolt" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
